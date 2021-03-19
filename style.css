@@ -1,0 +1,12 @@
+*{
+  outline: 1px solid red;
+}
+
+p{
+  margin-bottom: 0;
+}
+
+.shadowbox{
+  box-shadow: 5px 10px 10px #888888;
+  
+}
