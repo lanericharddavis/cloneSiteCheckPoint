@@ -10,3 +10,12 @@ p{
   box-shadow: 5px 10px 10px #888888;
   
 }
+
+divROW2{
+  position: relative;
+}
+
+spillcard{
+  position: absolute;
+  bottom: -1.5rem;
+}
