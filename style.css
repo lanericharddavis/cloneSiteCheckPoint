@@ -1,5 +1,21 @@
-*{
-  outline: 1px solid red;
+
+.mtnlake{
+  background-image: url(./MtnLake.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.underdog-font{
+  font-family: Underdog;
+}
+
+.vl {
+  border-left: 6px solid green;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
 }
 
 p{
@@ -18,4 +34,22 @@ divROW2{
 spillcard{
   position: absolute;
   bottom: -1.5rem;
+}
+
+@media only screen and (min-width: 768px){
+.smvanish{
+  display: none;
+  }
+}
+
+main{
+  margin-top: 40px;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  z-index: 10;
 }
