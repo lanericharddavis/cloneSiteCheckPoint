@@ -1,8 +1,12 @@
 
-.dog-close-up{
-  background-image: url(./DogCloseUp.jpg);
+.dog-flowers{
+  background-image: url(./denali-flowers.jpg);
   background-size:cover;
   background-position: center;
+}
+
+.color-tan{
+  background-color: #dbd0c1;
 }
 
 .underdog-font{
@@ -42,8 +46,12 @@ spillcard{
   }
 }
 
+body footer{
+  width:100%;
+}
+
 main{
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 header{
