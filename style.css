@@ -74,3 +74,17 @@ header{
   width: 18rem;
   height: 10rem;
 }
+
+
+/* Don't understand the CSS animations yet*/
+@keyframes grow-shrink{
+  0% {size:100%;}
+  50% {size:300%;}
+  100% {size:100%;}
+}
+
+.breathe{
+  animation-name: grow-shrink;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+}
