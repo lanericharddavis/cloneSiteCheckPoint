@@ -1,4 +1,8 @@
 
+html{
+  scroll-behavior: smooth;
+}
+
 .dog-flowers{
   background-image: url(./denali-flowers.jpg);
   background-size:cover;
