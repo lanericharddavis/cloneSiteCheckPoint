@@ -76,7 +76,7 @@ header{
 }
 
 
-/* Don't understand the CSS animations yet*/
+/* Don't understand the CSS animations*/
 @keyframes grow-shrink{
   0% {size:100%;}
   50% {size:300%;}
